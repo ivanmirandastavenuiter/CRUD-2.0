@@ -15,13 +15,17 @@ All the project data is stored in a root folder called “Main”. If you go for
 
 On the other hand, java files will be stored in previous “src/java/utils” folder. It has the following information:
 
-Image here
+![Java](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-2.PNG)
 
 ## Running the program
 
-Once we know how information is handled, we should be able to run the program. First thing we need to do is going to main page login.jsp”. Here, **we’ll find the possibility of entering our user and password**. There will be three default users that will work fine to enter home page. In addition, you can also create a new profile clicking on the link below. 
+Once we know how information is handled, we should be able to run the program. First thing we need to do is going to main page "login.jsp". Here, **we’ll find the possibility of entering our user and password**. There will be three default users that will work fine to enter home page. In addition, you can also create a new profile clicking on the link below. 
+
+![Login](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-1.PNG)
 
 **In case of error** in user or passwords, login will react depending on the situation, showing alerts giving details of the problem. More or less, it is the same on register page, where the program will warn us in case of repeating the user, if we leave empty fields or in case passwords don’t match. You can try to check it!
+
+![Error](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-4.PNG)
 
 ## Hashmap implementation
 
@@ -43,7 +47,11 @@ HashMap<String, String> credentialsTo = (HashMap)session.getAttribute("credentia
 
 Once we are logged in, we’ll see a brief presentation of the company and a navegation bar that allows the user going to the point is chosen. Details are displayed then, where we can easily make the main crud operations: deleting, creating, reading and updating. Here you have some pics:
 
-Images here
+![Clients](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-5.PNG)
+
+![Modify](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-6.PNG)
+
+![Modified](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-7.PNG)
 
 ## ArrayList implementation
 
@@ -51,7 +59,7 @@ Ending with explanation we also have the “find” option. It is made to introd
 
 So, if I type on find clients the word “movil”, the result will be:
 
-Image here
+![Finder](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-8.PNG)
 
 And don’t forget! The searcher is **ci (case insensitive), which means you can type the word like you want, as long as it matches**.
 
