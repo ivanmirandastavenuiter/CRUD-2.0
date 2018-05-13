@@ -2,6 +2,10 @@
 
 CRUD project with JSP, Bootstrap and MySQL, consisting in a fictitous app that manages network assignments. This second part will hold two new features: **Hashmap and ArrayList implementations**.
 
+## Database design
+
+![DB](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-10.PNG)
+
 ## The structure
 
 All the project data is stored in a root folder called “Main”. If you go forward, you’ll find “web” and then, several subfolders inside. The appearance should be something like this:
