@@ -47,6 +47,8 @@ HashMap<String, String> credentialsTo = (HashMap)session.getAttribute("credentia
 
 Once we are logged in, we’ll see a brief presentation of the company and a navegation bar that allows the user going to the point is chosen. Details are displayed then, where we can easily make the main crud operations: deleting, creating, reading and updating. Here you have some pics:
 
+![Home](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-9.PNG)
+
 ![Clients](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-5.PNG)
 
 ![Modify](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-6.PNG)
