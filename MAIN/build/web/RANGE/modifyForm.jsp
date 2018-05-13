@@ -1,4 +1,4 @@
-<%@page import="java.sql.Statement"%>
+ <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.Connection"%>
@@ -53,7 +53,7 @@
       <hr>
       <div class="form-wrapper">
         <h1>MODIFY RANGE</h1>
-        <form class="needs-validation" method="get" novalidate action="modifyQuery.jsp">
+        <form method="get" action="modifyQuery.jsp">
           <div class="form-group">
             <label for="code">Code</label>
             <input type="text" class="form-control" name="code" value="<%=range.getString("CodAlc")%>" placeholder="<%=code%>" readonly>
@@ -67,8 +67,8 @@
             <input type="text" class="form-control" name="description" placeholder="<%=description%>" required>
           <button type="submit" class="btn btn-secondary">Apply changes</button>
           <a href="range.jsp"><button type="button" class="btn btn-danger">Back</button></a>
-        </form>
-      </div>
+          </div>
+       </form>
       </div>
     </div>
   </div>

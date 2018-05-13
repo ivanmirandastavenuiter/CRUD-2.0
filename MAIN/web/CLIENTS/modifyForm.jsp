@@ -59,7 +59,7 @@
       <hr>
       <div class="form-wrapper">
         <h1>MODIFY CLIENT</h1>
-        <form class="needs-validation" method="get" novalidate action="modifyQuery.jsp">
+        <form method="get" action="modifyQuery.jsp">
           <div class="form-group">
             <label for="code">Code</label>
             <input type="text" class="form-control" name="code" value="<%=client.getString("CodCli")%>" placeholder="<%=code%>" readonly>
