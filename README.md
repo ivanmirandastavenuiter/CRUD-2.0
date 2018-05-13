@@ -6,7 +6,7 @@ CRUD project with JSP, Bootstrap and MySQL, consisting in a fictitous app that m
 
 All the project data is stored in a root folder called “Main”. If you go forward, you’ll find “web” and then, several subfolders inside. The appearance should be something like this:
 
-![Folders](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-1.png)
+![Folders](pics/img-1.png)
 
 1. **Clients, Servers, Range, Connections**: holds main tables data information, including necessary files for deleting, updating, adding and reading. It also contains css files to give them proper style and images used on the page.
 2. **Find**: contains two jsp files that implement find function inserting a keyword. It will also have their respectives css files. 
