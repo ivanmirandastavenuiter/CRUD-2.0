@@ -37,7 +37,7 @@ If we go to the code, we’ll find that hasmap is used here as a backup users da
 
 To allow hashmap object run between login and register pages, the next code is applied:
 
-`jsp 
+`
 session.setAttribute("credentialsFrom", credentialsFrom);
 `
 
