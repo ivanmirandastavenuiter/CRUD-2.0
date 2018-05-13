@@ -21,7 +21,7 @@ On the other hand, java files will be stored in previous “src/java/utils” fo
 
 Once we know how information is handled, we should be able to run the program. First thing we need to do is going to main page "login.jsp". Here, **we’ll find the possibility of entering our user and password**. There will be three default users that will work fine to enter home page. In addition, you can also create a new profile clicking on the link below. 
 
-![Login](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-1.PNG)
+![Login](https://github.com/ivanmirandastavenuiter/CRUD-2.0/blob/master/pics/img-3.PNG)
 
 **In case of error** in user or passwords, login will react depending on the situation, showing alerts giving details of the problem. More or less, it is the same on register page, where the program will warn us in case of repeating the user, if we leave empty fields or in case passwords don’t match. You can try to check it!
 
