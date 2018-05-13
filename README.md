@@ -6,7 +6,7 @@ CRUD project with JSP, Bootstrap and MySQL, consisting in a fictitous app that m
 
 All the project data is stored in a root folder called “Main”. If you go forward, you’ll find “web” and then, several subfolders inside. The appearance should be something like this:
 
-![Folders](pics/img-1.png)
+![Main](https://github.com/ivanmirandastavenuiter/CRUD-2.0/tree/master/pics/img-1.png)
 
 1. **Clients, Servers, Range, Connections**: holds main tables data information, including necessary files for deleting, updating, adding and reading. It also contains css files to give them proper style and images used on the page.
 2. **Find**: contains two jsp files that implement find function inserting a keyword. It will also have their respectives css files. 
@@ -29,13 +29,13 @@ If we go to the code, we’ll find that hasmap is used here as a backup users da
 
 To allow hashmap object run between login and register pages, the next code is applied:
 
-` jsp
+`jsp 
 session.setAttribute("credentialsFrom", credentialsFrom);
 `
 
 The receiver takes the attribute like this:
 
-` jsp
+` 
 HashMap<String, String> credentialsTo = (HashMap)session.getAttribute("credentialsFrom");
 `
 
@@ -45,7 +45,7 @@ Once we are logged in, we’ll see a brief presentation of the company and a nav
 
 Images here
 
-# ArrayList implementation
+## ArrayList implementation
 
 Ending with explanation we also have the “find” option. It is made to introduce a word that matches the client/server category field on database. So the query is ready to return the data when category matches the word you introduce. If don’t, a pop-up will alert you, explaining the available possibilities you can count with. 
 
