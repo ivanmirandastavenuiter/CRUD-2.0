@@ -1,0 +1,77 @@
+.table-dark {
+	width:1400px;
+	margin:0 auto;
+	margin-top:10px;
+}
+
+.table-dark td {
+	padding:20px;
+}
+
+.table-dark th {
+	padding:20px;
+}
+
+tbody {
+	color:rgb(210,24,16);
+}
+
+.formulario {
+	text-align: center;
+	margin-top:20px;
+	font-family: Montserrat-Regular, sans-serif;
+}
+
+.clients,
+.servers,
+.range,
+.connections {
+	margin:0 auto;
+	width:500px;
+	margin-top:50px;
+	margin-bottom:50px;
+	border-bottom: 1px solid black;
+	font-family: Montserrat-Regular, sans-serif;
+	text-align: center;
+}
+
+.plus-button {
+  text-align:center;
+}
+
+.modal-body {
+  text-align: left;
+}
+
+.modal-body .form-horizontal .col-sm-2,
+.modal-body .form-horizontal .col-sm-10 {
+    width: 100%
+}
+
+.modal-body .form-horizontal .control-label {
+    text-align: left;
+}
+
+.modal-body .form-horizontal .col-sm-offset-2 {
+    margin-left: 15px;
+}
+
+.modal-header button .close {
+  text-align: right;
+}
+
+.main {
+  width:800px;
+  font-family:Helvetica;
+  margin:0 auto;
+  text-align: center;
+  padding:30px;
+  font-size:70%;
+}
+
+.info-logo {
+  width:64px;
+  height:64px;
+  margin:0 auto;
+  padding-top:20px;
+}
